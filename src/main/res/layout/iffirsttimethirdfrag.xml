@@ -1,0 +1,126 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/mainlayout"
+    android:padding="@dimen/abc_text_size_body_1_material"
+    android:layout_height="match_parent"
+    android:background="#e5e5e5">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/firstlayout"
+        android:background="@drawable/shadow"
+        android:paddingLeft="6px"
+        android:paddingRight="5px"
+        android:paddingTop="5px"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:id="@+id/textView"
+            android:padding="5dp"
+            android:textColor="@android:color/primary_text_light"
+            android:gravity="center"
+            android:text="@string/info3"
+            android:background="@android:color/white" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/seclayout"
+        android:background="@drawable/shadow"
+        android:paddingLeft="6px"
+        android:paddingRight="5px"
+        android:paddingTop="5px"
+        android:layout_below="@id/firstlayout"
+        android:layout_marginTop="5dp"
+        android:layout_above="@+id/thirdlayout">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:src="@drawable/download"
+            android:id="@+id/imageView2" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/thirdlayout"
+        android:layout_marginTop="5dp"
+        android:layout_above="@+id/forthlayout"
+        android:background="@drawable/shadow"
+        android:paddingLeft="6px"
+        android:paddingRight="5px"
+        android:paddingTop="5px">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:id="@+id/infotext"
+            android:padding="5dp"
+            android:textColor="@android:color/primary_text_light"
+            android:gravity="center"
+            android:text="@string/info4"
+            android:background="@android:color/white" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/forthlayout"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/shadow"
+        android:paddingLeft="6px"
+        android:paddingRight="5px"
+        android:paddingTop="5px">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="skip"
+            android:textColor="@android:color/tertiary_text_light"
+            android:textSize="22sp"
+            android:padding="5dp"
+            android:gravity="center"
+            android:background="@android:color/transparent"
+            android:id="@+id/button" />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textSize="22sp"
+            android:textColor="@android:color/tertiary_text_light"
+            android:id="@+id/button1"
+            android:text="next"
+            android:padding="5dp"
+            android:gravity="center"
+            android:background="@android:color/transparent" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textbox"
+            android:background="@android:color/white"
+            android:layout_alignBottom="@+id/button"
+            android:layout_alignTop="@+id/button" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

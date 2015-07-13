@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Thyroid Awareness2</string>
+
+    <string name="title">Thyroid Awareness</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="home">Thyroidism Home</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item >Home</item>
+        <item >Facebook Group</item>
+        <item >What\'s Thyroid</item>
+        <item >Communities</item>
+        <item >Pages</item>
+        <item >What\'s Hot</item>
+    </string-array>
+    <string name="APP_ID">1610814442491559</string>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_facebook</item>
+        <item>@drawable/ic_thyroid</item>
+        <item>@drawable/ic_communities</item>
+        <item>@drawable/ic_pages</item>
+        <item>@drawable/ic_whats_hot</item>
+    </array>
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="thirdfragtitle">What Is Thyroidism</string>
+    <string name="ThyroidTitle">Thyroidism</string>
+    <string name="ThyroidWiki">Thyroid Wiki</string>
+
+    <string name="info1">This application is to spread awareness and educate people on hypo- and hyper-thyroidism</string>
+    <string name="info2">Whether you have an over or under active thyroid we try to offer positive information and helpful advice</string>
+    <string name="info3">This app can only offer suggestions and cannot be held liable for any advice offered or taken</string>
+    <string name="info4">Now with that out the way. I hope you enjoy our content and help spread the word of this dibiltating syndrome.</string>
+    <string name="info5">This app gives help and suggestions as well as bringing you quick access to communities and sites who can also offer help and advice</string>
+
+</resources>

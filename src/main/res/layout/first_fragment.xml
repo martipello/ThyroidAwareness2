@@ -1,0 +1,33 @@
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/abc_text_size_body_1_material"
+
+    android:background="@color/bg_color">
+
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="36sp"
+    android:padding="5dp"
+    android:gravity="center"
+    android:id="@+id/textView"
+    android:text="@string/home"
+    android:background="@android:color/white"/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/textView2"
+        android:background="@android:color/white"
+        android:layout_below="@+id/textView" />
+
+
+</RelativeLayout>
